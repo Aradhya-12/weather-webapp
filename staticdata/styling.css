@@ -1,0 +1,55 @@
+body{
+    color: black;
+    background: burlywood;
+    margin: 0% auto;
+    padding: 2rem;
+    
+}
+button{
+    background-color: wheat;
+    display: inline-flex;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+button:hover{
+    color: azure;
+}
+#tab-1{
+padding: 1rem;
+text-align: left;
+font-style: italic;
+font-size: large;
+}
+#center{
+    text-align: center;
+}
+.center{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 250px;
+    height: 150px;
+}
+.partials{
+    text-align: end;
+    padding-right: 2rem;
+    font-size: 1.5rem;
+    text-decoration-color: darkcyan;
+}
+.title{
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    color: currentcolor;
+    font-style: italic;
+}
+#img1{
+    width: 50px;
+    height: 50px;
+}
+#row{
+    display: flex;
+}
+#row1{
+    display: flex;
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="weather1.png">
+    <link rel="stylesheet" href="styling.css">
+    <title>Weather</title>
+</head>
+<body>
+    {{>header}}
+    <img src="weatherpic.png" alt="'-'" class="center">
+        <h1>Weather-data</h1>
+    <form>
+        <input placeholder="City_Country">
+        <button>Search</button>
+    </form>
+     <p id="msg-1"></p>
+     <div id="row">
+         <table id="tab-1"></table>
+        <img id="img1"/>
+    </div>
+    <script src="clientjs.js"></script>
+    {{>footer}}
+</body>
+</html>
