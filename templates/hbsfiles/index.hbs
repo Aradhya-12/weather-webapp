@@ -6,9 +6,9 @@
     <title>Weather</title>
 </head>
 <body>
+    <div id="main-content">
     {{>header}}
-    <img src="weatherpic.png" alt="'-'" class="center">
-        <h1>Weather-data</h1>
+    <img src="weatherpic.png" alt="'-'" class="img">
     <form>
         <input placeholder="City_Country">
         <button>Search</button>
@@ -16,7 +16,8 @@
      <p id="msg-1"></p>
      <div id="row">
          <table id="tab-1"></table>
-        <img id="img1"/>
+        <img src="default.gif" id="img1"/>
+    </div>
     </div>
     <script src="clientjs.js"></script>
     {{>footer}}

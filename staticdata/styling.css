@@ -1,10 +1,33 @@
 body{
-    color: black;
-    background: burlywood;
+    color: #333333;
+    font-family: arial;
+    max-width: 650px;
     margin: 0% auto;
-    padding: 2rem;
+    padding: 0 16px;
+    background-color: steelblue;
     
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
+#main-content{
+    flex-grow: 1;
+}
+footer{
+    color: darkgray;
+    border-top: solid #eeeeee;
+    margin-top: 16px;
+    padding: 16px;
+}
+header{
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+h1{
+    font-size: 64px;
+    margin-bottom: 16px;
+}
+
 button{
     background-color: wheat;
     display: inline-flex;
@@ -16,40 +39,29 @@ button:hover{
 }
 #tab-1{
 padding: 1rem;
-text-align: left;
 font-style: italic;
 font-size: large;
 }
-#center{
-    text-align: center;
+
+header a{
+    color: darkgray;
+    font-size: 20px;
+    margin-right: 16px;
+    text-decoration: none
+    
 }
-.center{
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
+#help-css{
+    font-size: 32px;
+    color: #333333;
+}
+.img{
     width: 250px;
     height: 150px;
 }
-.partials{
-    text-align: end;
-    padding-right: 2rem;
-    font-size: 1.5rem;
-    text-decoration-color: darkcyan;
-}
-.title{
-    text-align: center;
-    font-size: 3rem;
-    text-decoration: underline;
-    color: currentcolor;
-    font-style: italic;
-}
 #img1{
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
 }
 #row{
-    display: flex;
-}
-#row1{
     display: flex;
 }
