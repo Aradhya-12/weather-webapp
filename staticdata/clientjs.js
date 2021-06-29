@@ -11,7 +11,7 @@ weatherform.addEventListener('submit', (event) =>{
     msgOne.textContent= 'Loading...'
     img1.src =""
     const location = search.value 
-    const url = 'http://localhost:3000/weather?address=' + encodeURIComponent(location)
+    const url = '/weather?address=' + encodeURIComponent(location)
     
     for(var i = table.rows.length; i > 0;i--){
         table.deleteRow(i -1);

@@ -4,6 +4,8 @@ const hbs = require('hbs')
 const weather_info = require('./weather_info.js')
 
 const app = express()
+const port = process.env.PORT || 3000
+
 const staticDataDirectory = path.join(__dirname, '../staticdata')
 const hbsfilesDirectory = path.join(__dirname, '../templates/hbsfiles')
 const partialDirectory = path.join(__dirname, '../templates/partial')
@@ -48,6 +50,6 @@ app.get('/help/*', (req,res)=>{
 app.get('*', (req, res) =>{
     res.render('error')
 })
-app.listen(3000, () => {
-    console.log("kudos!...app is up and running")
+app.listen(port, () => {
+    console.log("kudos!...app is up and running at" + port)
 })
